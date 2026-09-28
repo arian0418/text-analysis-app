@@ -1,6 +1,6 @@
 # Text Analysis App
 
-A Java command-line application that analyzes two text files and compares their content using text statistics, simple sentiment analysis, and cosine similarity.
+A Java console application that analyzes two text files and compares their content using text statistics, simple sentiment analysis, and cosine similarity.
 
 ## Features
 
@@ -10,14 +10,14 @@ A Java command-line application that analyzes two text files and compares their 
 - Calculates vocabulary richness
 - Finds frequent and long words
 - Counts vowels and consonants
-- Performs lexicon-based sentiment analysis
+- Performs sentiment analysis using word lists
 - Displays the 20 most frequent words
 - Compares two documents using cosine similarity
 - Saves analysis reports to text files
 
 ## Technologies and Concepts
 
-Java, object-oriented programming, interfaces, collections, maps, file I/O, text processing, frequency analysis, vector representation, and cosine similarity.
+Java, programming with objects, interfaces, collections, maps, file I/O, text processing, frequency analysis, vector representation, and cosine similarity.
 
 ## Project Structure
 
@@ -53,4 +53,4 @@ The sentiment feature is intentionally simple: it compares token matches against
 
 ## About
 
-This project demonstrates Java OOP and practical text-processing concepts while separating file handling, analysis, similarity calculation, and report generation into focused classes.
+This project demonstrates Java OOP and practical text processing concepts while separating file handling, analysis, similarity calculation, and report generation into focused classes.
